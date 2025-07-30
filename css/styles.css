@@ -1,0 +1,115 @@
+/* SETTING UNIVERSAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+}
+li {
+    padding: 15px;
+}
+
+/* GOOGLE FONTS STYLING */
+.sansation-light {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.sansation-regular {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sansation-bold {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sansation-light-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.sansation-regular-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.sansation-bold-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* HEADER STYLING */
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-logo {
+    max-width: 154.9px;
+    max-height: 46.1px;
+    /* max-width: auto;
+    max-height: auto; */
+}
+
+.header-right-hand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-right-hand nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.header-right-hand .trigram {
+    display: none;
+}
+
+/* MAIN BODY STYLING */
+.tagline-and-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tagline {
+    display: flex;
+    flex-flow: column wrap;
+}
+.tag-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.icons img {
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+.icons .large {
+    width: 80px;
+    height: 80px;
+}
+
+.icons .small {
+    width: 60px;
+    height: 60px;
+}
