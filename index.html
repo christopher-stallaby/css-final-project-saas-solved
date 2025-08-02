@@ -24,14 +24,14 @@
         <button class="trigram"><i class="fa fa-bars"></i></button>
         <nav>
           <ul>
-            <li class="sansation-regular">Home</li>
-            <li class="sansation-regular active">Features</li>
-            <li class="sansation-regular">Learn</li>
-            <li class="sansation-regular">Pricing</li>
-            <li class="sansation-regular">Hire Us</li>
+            <li class="sansation-regular"><a href="">Home</a></li>
+            <li class="sansation-regular active"><a href="" class = "active">Features</a></li>
+            <li class="sansation-regular"><a href="">Learn</a></li>
+            <li class="sansation-regular"><a href="">Pricing</a></li>
+            <li class="sansation-regular"><a href="">Hire Us</a></li>
           </ul>
         </nav>
-        <button class="buy-now sansation-bold">Buy Now</button>
+        <button class="pill sansation-bold">Buy Now</button>
       </div>
     </header>
     <div class="tagline-and-icons">
@@ -41,10 +41,10 @@
           Own the unlimited power of web development
         </p>
         <div class="tag-buttons">
-          <button class="play-video sansation-bold">
+          <button class="pill sansation-bold">
             <i class="fa fa-solid fa-play-circle"></i>Play Video
           </button>
-          <a href="" class="sansation-bold link">Learn More</a>
+          <a href="" class="sansation-bold">Learn More</a>
         </div>
       </div>
       <div class="icons">
@@ -163,7 +163,7 @@
             </p>
           </div>
           <div class="bottom">
-            <button class="play-video sansation-bold">
+            <button class="pill sansation-bold">
               <i class="fa fa-solid fa-play-circle"></i>Play Video
             </button>
             <p>No credit card required.</p>
@@ -254,75 +254,77 @@
       </div>
       <div class="right-hand-side">
         <form class="hiring-form">
-          <h3 class="form-title sansation-bold">
-            Fill out the form and we will be in touch as soon as possible
-          </h3>
-          <div class="form-group">
-            <input
-              type="text"
-              id="first-name"
-              name="first-name"
-              placeholder="First name"
-              required
-            />
-            <input
-              type="text"
-              id="last-name"
-              name="last-name"
-              placeholder="Last name"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <select id="budget" name="budget" placeholder="Budget" required>
-              <option value="" disabled selected>Budget</option>
-              <option value="<5k">$5,000</option>
-              <option value="5k-10k">$5,000 - $10,000</option>
-              <option value="10k-20k">$10,000 - $20,000</option>
-              <option value=">20k">$20,000+</option>
-            </select>
-            <select id="country" name="country" placeholder="Country" required>
-              <option value="" disabled selected>Country</option>
-              <option value="usa">USA</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Tell us more about your project, needs, and timeline, please..."
-          ></textarea>
-          <div class="form-group">
-            <div class="marketing-messages">
+          <div class="form-data">
+            <h3 class="form-title sansation-bold">
+              Fill out the form and we will be in touch as soon as possible
+            </h3>
+            <div class="form-group">
               <input
-                type="checkbox"
-                id="myCheckbox"
-                name="myCheckbox"
-                value="isChecked"
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="First name"
+                required
+              />
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="Last name"
+                required
               />
             </div>
-            <div class="label">
-              <label for="myCheckbox"
-                >Yes, I'd like to receive occasional marketing emails from Front.
-                I have the right to opt out at any time.
-              </label>
-              <div class="privacy-policy">
-                <a href="" class="private-1 link">View privacy policy</a>
-                <a href="" class="private-2 link active">View privacy policy</a>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <select id="budget" name="budget" placeholder="Budget" required>
+                <option value="" disabled selected>Budget</option>
+                <option value="<5k">$5,000</option>
+                <option value="5k-10k">$5,000 - $10,000</option>
+                <option value="10k-20k">$10,000 - $20,000</option>
+                <option value=">20k">$20,000+</option>
+              </select>
+              <select id="country" name="country" placeholder="Country" required>
+                <option value="" disabled selected>Country</option>
+                <option value="usa">USA</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell us more about your project, needs, and timeline, please..."
+            ></textarea>
+            <div class="form-group">
+              <div class="marketing-messages">
+                <input
+                  type="checkbox"
+                  id="myCheckbox"
+                  name="myCheckbox"
+                  value="isChecked"
+                />
+              </div>
+              <div class="label">
+                <label for="myCheckbox"
+                  >Yes, I'd like to receive occasional marketing emails from
+                  Front. I have the right to opt out at any time.
+                </label>
+                <div class="privacy-policy">
+                  <a href="" class="private">View privacy policy</a>
+                  <a href="" class="private active">View privacy policy</a>
+                </div>
               </div>
             </div>
           </div>
           <div class="submit-button">
-            <button type="submit">Submit Form</button>
+            <button type="submit" class="pill">Submit Form</button>
           </div>
         </form>
       </div>
@@ -330,19 +332,23 @@
     <footer class="footer">
       <div class="footer-content">
         <div class="info">
-          <img class="footer-logo" src="/assets/logos/logo-front.svg" alt="logo" />
-          <div class="info-links"> 
+          <img
+            class="footer-logo"
+            src="/assets/logos/logo-front.svg"
+            alt="logo"
+          />
+          <div class="info-links">
             <div class="menu-item">
               <div class="footer-icon">
-                <i class="fa fa-location-arrow"></i>  
+                <i class="fa fa-location-arrow"></i>
               </div>
-              <p>153 Williamson Plaza, Maggieberg</p>
+              <a href="">153 Williamson Plaza, Maggieberg</a>
             </div>
             <div class="menu-item">
               <div class="footer-icon">
-                <i class="fa fa-phone"></i>           
+                <i class="fa fa-phone"></i>
               </div>
-              <p>+1 (062) 109-9222</p>
+              <a href="">+1 (062) 109-9222</a>
             </div>
           </div>
         </div>
@@ -351,19 +357,20 @@
             <h3>Company</h3>
             <div class="site-locations">
               <div class="menu-item">
-                <p>About</p>
+                <a href="">About</a>
               </div>
               <div class="menu-item">
-                <p>Career</p>
+                <a href="">Career</a>
+                <div class="badge"></div>
               </div>
               <div class="menu-item">
-                <p>Blog</p>
+                <a href="">Blog</a>
               </div>
               <div class="menu-item">
-                <p>Customers</p>
+                <a href="">Customers</a>
               </div>
               <div class="menu-item">
-                <p>Hire us</p>
+                <a href="">Hire us</a>
               </div>
             </div>
           </div>
@@ -371,16 +378,16 @@
             <h3>Features</h3>
             <div class="site-locations">
               <div class="menu-item">
-                <p>Press</p>
+                <a href="">Press</a>
               </div>
               <div class="menu-item">
-                <p class = "active">Release Notes</p>
+                <a class="active">Release Notes</a>
               </div>
               <div class="menu-item">
-                <p>Integrations</p>
+                <a href="">Integrations</a>
               </div>
               <div class="menu-item">
-                <p>Pricing</p>
+                <a href="">Pricing</a>
               </div>
             </div>
           </div>
@@ -388,32 +395,32 @@
             <h3>Documentation</h3>
             <div class="site-locations">
               <div class="menu-item">
-                <p>Support</p>
+                <a href="">Support</a>
               </div>
               <div class="menu-item">
-                <p>Docs</p>
+                <a href="">Docs</a>
               </div>
               <div class="menu-item">
-                <p>Status</p>
+                <a href="">Status</a>
               </div>
               <div class="menu-item">
-                <p>API Reference</p>
+                <a href="">API Reference</a>
               </div>
               <div class="menu-item">
-                <p>Tech Requirements</p>
+                <a href="">Tech Requirements</a>
               </div>
             </div>
           </div>
           <div class="site-hub">
             <h3>Resources</h3>
             <div class="site-locations">
-              <div class="menu-item">
+              <div class="menu-item footer-icon">
                 <i class="fa fa-info-circle"></i>
-                <p>Help</p>
+                <a href="">Help</a>
               </div>
-              <div class="menu-item">
+              <div class="menu-item footer-icon">
                 <i class="fa fa-user-circle"></i>
-                <p>About</p>
+                <a href="">About</a>
               </div>
             </div>
           </div>

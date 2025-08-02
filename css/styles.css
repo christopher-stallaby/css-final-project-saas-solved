@@ -16,6 +16,11 @@ li {
     padding: 15px;
 }
 
+a {
+  color: #677788;
+  text-decoration: none;
+}
+
 /* GOOGLE FONTS STYLING */
 .sansation-light {
   font-family: "Sansation", sans-serif;
@@ -85,6 +90,16 @@ li {
     display: none;
 }
 
+.pill {
+  display: flex;
+  background-color: #2476FF;
+  color: white;
+  border: 1px solid #2476FF;
+  border-radius: 30px;
+  padding: 15px 25px;
+  gap: 8px;
+}
+
 /* MAIN BODY STYLING */
 .tagline-and-icons {
     display: flex;
@@ -93,6 +108,10 @@ li {
     background-image: url("/assets/bg/background-top.svg");
     width: auto;
     height: 533px;
+}
+
+.active {
+  color: #2476FF;
 }
 
 .tagline {
@@ -279,21 +298,18 @@ li {
 }
 
 .section.hire-us {
-  /* display: flex; */
-  /* flex-direction: row; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #20335B;
   color: white;
   padding: 80px;
   gap: 80px;
-  /* padding: 30px; */
 }
 
 .hire-us .left-hand-side {
   display: flex;
   flex-direction: column;
-  /* padding-left: 70px; */
+  padding-left: 70px;
   gap: 60px;
 }
 
@@ -340,15 +356,17 @@ li {
 .hiring-form {
 display: flex;
 flex-direction: column;
-/* height: 100%; */
 background-color: #FFFFFF;
 color: black;
-/* padding: 30px; */
-/* gap: 37px; */
-padding: 40px;
-gap: 20px;
+padding: 30px;
+gap: 37px;
 border-radius: 10px;
-/* align-items: left; */
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .form-title {
@@ -399,29 +417,74 @@ border-radius: 10px;
   gap: 28px;
 }
 
+.private {
+  text-decoration: dotted underline;
+}
+
 .submit-button {
   display: flex;
   justify-content: center;
 }
 
-.submit-button button {
-  background-color: #0066FF;
-  color: white;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 40px 30px;
+  gap: 40px;
 }
 
 .footer-content {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-logo {
+  height: 30px;
+  width: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-item {
+  display: flex;
+  gap: 9px;
+}
+
+.site-map {
+  display: flex;
+  flex-direction: row;
+  gap: 49px;
+  justify-content: space-between;
+}
+
+.site-hub {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.site-locations {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  color: #677788
+}
+
+.footer-icon {
+  color: #677788;
 }
