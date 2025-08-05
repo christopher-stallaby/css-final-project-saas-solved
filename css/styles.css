@@ -9,7 +9,6 @@ body {
     font-family: "Sansation", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding: 15px;
 }
 
 li {
@@ -19,7 +18,13 @@ li {
 a {
   color: #677788;
   text-decoration: none;
+  font-size: 14px;
 }
+
+a:hover {
+  color: #2476FF;
+}
+
 
 /* GOOGLE FONTS STYLING */
 .sansation-light {
@@ -59,19 +64,24 @@ a {
 }
 
 /* HEADER STYLING */
+.top-section {
+  background-image: url("/assets/bg/background-top.svg");
+}
+
 .header-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 30px;
     background-color: #F6F8FA;
+    height: 86px;
 }
 
 .header-logo {
     max-width: 154.9px;
     max-height: 46.1px;
-    /* max-width: auto;
-    max-height: auto; */
+    gap: 10px;
 }
 
 .header-right-hand {
@@ -98,16 +108,23 @@ a {
   border-radius: 30px;
   padding: 15px 25px;
   gap: 8px;
+  font-size: 12px;
+}
+
+.pill:hover {
+  background-color: white;
+  color: #2476FF;
+  border: 1px solid #2476FF;
 }
 
 /* MAIN BODY STYLING */
 .tagline-and-icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-image: url("/assets/bg/background-top.svg");
-    width: auto;
-    height: 533px;
+    padding: 60px 0px 0px;
+    width: 100vw;
+    height: 446px;
 }
 
 .active {
@@ -117,10 +134,23 @@ a {
 .tagline {
     display: flex;
     flex-flow: column wrap;
+    align-items: flex-start;
+    padding-bottom: 60px;
+    gap: 30px;
 }
+
 .tag-buttons {
     display: flex;
+    align-items: center;
     gap: 30px;
+}
+
+.icons {
+  display: flex;
+  position: relative;
+  gap: 20px;
+  align-self: flex-start;
+  width: 50%;
 }
 
 .icons img {
@@ -133,12 +163,57 @@ a {
 .icons .large {
     width: 80px;
     height: 80px;
+    padding: 16px;
 }
 
 .icons .small {
     width: 60px;
     height: 60px;
+    padding: 10px;
 }
+
+.asana-logo {
+  position: absolute;
+  top: 10px;
+  left: 380px;
+}
+
+.atlassian-logo {
+  position: absolute;
+  top: 10px;
+  left: 175px;
+}
+
+.calendar-logo {
+  position: absolute;
+  top: 310px;
+  left: 364px;
+}
+
+.ads-logo {
+  position: absolute;
+  top: 290px;
+  left: 155px;
+}
+
+.google-logo {
+  position: absolute;
+  top: 10px;
+  left: 64px;
+}
+
+.paypal-logo {
+  position: absolute;
+  top: 172px;
+  left: 44px;
+}
+
+.weave-logo {
+  position: absolute;
+  top: 172px;
+  left: 262px;
+} 
+
 .section {
   display: flex;
   flex-flow: column wrap;
@@ -254,11 +329,14 @@ a {
 .card {
   display: flex;
   flex-flow: column nowrap;
-  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
   padding: 40px;
-  border: 1px solid #E2E2E2;
   gap: 50px;
   text-align: left;
+}
+
+.card:hover {
+  border: 1px solid #E2E2E2;
+  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
 }
 
 .card .top {

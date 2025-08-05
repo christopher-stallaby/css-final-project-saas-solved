@@ -9,7 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
     <script
       src="https://kit.fontawesome.com/3a0c18bd57.js"
       crossorigin="anonymous"
@@ -18,71 +19,75 @@
     <title>Saas company</title>
   </head>
   <body>
-    <header class="header-content">
-      <img class="header-logo" src="/assets/logos/logo-front.svg" alt="logo" />
-      <div class="header-right-hand">
-        <button class="trigram"><i class="fa fa-bars"></i></button>
-        <nav>
-          <ul>
-            <li class="sansation-regular"><a href="">Home</a></li>
-            <li class="sansation-regular active"><a href="" class = "active">Features</a></li>
-            <li class="sansation-regular"><a href="">Learn</a></li>
-            <li class="sansation-regular"><a href="">Pricing</a></li>
-            <li class="sansation-regular"><a href="">Hire Us</a></li>
-          </ul>
-        </nav>
-        <button class="pill sansation-bold">Buy Now</button>
-      </div>
-    </header>
-    <div class="tagline-and-icons">
-      <div class="tagline">
-        <h1 class="sansation-bold">Empowering teams with freedom</h1>
-        <p class="sansation-regular">
-          Own the unlimited power of web development
-        </p>
-        <div class="tag-buttons">
-          <button class="pill sansation-bold">
-            <i class="fa fa-solid fa-play-circle"></i>Play Video
-          </button>
-          <a href="" class="sansation-bold">Learn More</a>
+    <div class="top-section">
+      <header class="header-content">
+        <img class="header-logo" src="/assets/logos/logo-front.svg" alt="logo" />
+        <div class="header-right-hand">
+          <button class="trigram"><i class="fa fa-bars"></i></button>
+          <nav>
+            <ul>
+              <li class="sansation-regular"><a href="">Home</a></li>
+              <li class="sansation-regular active">
+                <a href="" class="active">Features</a>
+              </li>
+              <li class="sansation-regular"><a href="">Learn</a></li>
+              <li class="sansation-regular"><a href="">Pricing</a></li>
+              <li class="sansation-regular"><a href="">Hire Us</a></li>
+            </ul>
+          </nav>
+          <button class="pill sansation-bold">Buy Now</button>
         </div>
-      </div>
-      <div class="icons">
-        <img
-          class="asana-logo large"
-          src="/assets/logos/asana.png"
-          alt="asana logo"
-        />
-        <img
-          class="atlassian-logo large"
-          src="/assets/logos/atlassian.png"
-          alt="atlassian logo"
-        />
-        <img
-          class="calendar-logo large"
-          src="/assets/logos/calendar.png"
-          alt="google calendar logo"
-        />
-        <img
-          class="ads-logo small"
-          src="/assets/logos/google-ads.png"
-          alt="google ads logo"
-        />
-        <img
-          class="google-logo small"
-          src="/assets/logos/google.png"
-          alt="google logo"
-        />
-        <img
-          class="paypal-logo large"
-          src="/assets/logos/paypal.jpg"
-          alt="paypal logo"
-        />
-        <img
-          class="weave-logo large"
-          src="/assets/logos/weave.png"
-          alt="weave logo"
-        />
+      </header>
+      <div class="tagline-and-icons">
+        <div class="tagline">
+          <h1 class="sansation-bold">Empowering teams with freedom</h1>
+          <p class="sansation-regular">
+            Own the unlimited power of web development
+          </p>
+          <div class="tag-buttons">
+            <button class="pill sansation-bold">
+              <i class="fa fa-solid fa-play-circle"></i>Play Video
+            </button>
+            <a href="" class="sansation-bold">Learn More</a>
+          </div>
+        </div>
+        <div class="icons">
+          <img
+            class="asana-logo large"
+            src="/assets/logos/asana.png"
+            alt="asana logo"
+          />
+          <img
+            class="atlassian-logo large"
+            src="/assets/logos/atlassian.png"
+            alt="atlassian logo"
+          />
+          <img
+            class="calendar-logo large"
+            src="/assets/logos/calendar.png"
+            alt="google calendar logo"
+          />
+          <img
+            class="ads-logo small"
+            src="/assets/logos/google-ads.png"
+            alt="google ads logo"
+          />
+          <img
+            class="google-logo small"
+            src="/assets/logos/google.png"
+            alt="google logo"
+          />
+          <img
+            class="paypal-logo large"
+            src="/assets/logos/paypal.jpg"
+            alt="paypal logo"
+          />
+          <img
+            class="weave-logo large"
+            src="/assets/logos/weave.png"
+            alt="weave logo"
+          />
+        </div>
       </div>
     </div>
     <div class="section why-front">
@@ -291,7 +296,12 @@
                 <option value="10k-20k">$10,000 - $20,000</option>
                 <option value=">20k">$20,000+</option>
               </select>
-              <select id="country" name="country" placeholder="Country" required>
+              <select
+                id="country"
+                name="country"
+                placeholder="Country"
+                required
+              >
                 <option value="" disabled selected>Country</option>
                 <option value="usa">USA</option>
                 <option value="other">Other</option>
