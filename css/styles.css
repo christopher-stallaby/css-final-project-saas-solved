@@ -120,7 +120,7 @@ a:hover {
 /* MAIN BODY STYLING */
 .tagline-and-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100vw;
   height: 386px;
@@ -134,7 +134,7 @@ a:hover {
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
-  padding-bottom: 60px;
+  padding: 60px;
   gap: 30px;
 }
 
@@ -149,8 +149,6 @@ a:hover {
   flex-wrap: wrap;
   gap: 20px;
   width: 50%;
-  justify-content: center;
-  align-content: center;
   position: relative;
   align-self: flex-start;
 }
@@ -412,6 +410,19 @@ img.small {
   height: 50px;
 }
 
+.guarantee .middle {
+  display: flex;
+  gap: 10px;
+}
+
+.middle .badge {
+  background-color: #01C9A7;
+  border: 1px solid #01C9A7;
+  border-radius: 15px;
+  padding: 4px 10px;
+  color: white;
+}
+
 .guarantee .bottom {
   font-size: 14px;
   display: flex;
@@ -581,6 +592,15 @@ img.small {
 .menu-item {
   display: flex;
   gap: 9px;
+}
+
+.menu-item .badge {
+  background-color: #2576FF;
+  border: 1px solid #2576FF;
+  border-radius: 3px;
+  padding: 2px 4px;
+  color: white;
+  font-size: 8px;
 }
 
 .site-map {
