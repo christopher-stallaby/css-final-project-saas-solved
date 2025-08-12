@@ -1,0 +1,140 @@
+/* TABLET STYLES */
+@media screen and (max-width: 1023px) {
+  /* Disable animations for tablet and mobile */
+  .icons .large,
+  .icons .small {
+    animation: none;
+  }
+
+  .top-section::before {
+  background-image: url("/assets/bg/background-top.svg");
+  min-width: 771px;
+  min-height: 517px;
+}
+
+  .header-right-hand nav ul,
+  .header-right-hand button.pill {
+    display: none;
+  }
+
+  .header-right-hand .trigram {
+    display: block;
+    border: none;
+    min-width: 46px;
+    min-height: 32px;
+    padding: 6px 14px;
+    gap: 30px;
+    background-color: #F6F8FA;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 20px;
+    color: #677788
+  }
+
+  .tagline-and-icons {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+    gap: 60px;
+  }
+
+  .tagline {
+    align-items: center;
+    padding: 20px 0;
+    gap: 11px;
+  }
+
+  .icons {
+    position: relative;
+    width: 100%;
+    height: 325px;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  .stages {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .stages .stage .left-wing,
+  .stages .stage .right-wing {
+    display: none;
+  }
+
+  .pricing-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guarantees .top-row,
+  .guarantees .bottom-row {
+    flex-direction: column;
+  }
+
+  .section.hire-us {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+
+  .hire-us .left-hand-side {
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-hand-side .section-title {
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-hand-side .section-title p {
+    text-align: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .site-map {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+  .tagline h1 {
+    font-size: 28px;
+  }
+
+  .tagline p {
+    font-size: 16px;
+  }
+
+  .section-title h2 {
+    font-size: 22px;
+  }
+
+  .section-title p {
+    font-size: 14px;
+  }
+
+  .full-name {
+    grid-template-columns: 1fr;
+  }
+
+  .hiring-form {
+    padding: 20px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+}

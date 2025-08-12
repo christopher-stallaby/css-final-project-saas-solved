@@ -65,7 +65,20 @@ a:hover {
 
 /* HEADER STYLING */
 .top-section {
+  position: relative;
+}
+
+.top-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 450px;
   background-image: url("/assets/bg/background-top.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
 .header-content {
