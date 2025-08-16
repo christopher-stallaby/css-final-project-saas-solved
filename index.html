@@ -27,6 +27,7 @@
             <img class="header-logo" src="/assets/logos/logo-front.svg" alt="logo" />
           </div>
           <div class="nav">
+            <button class="trigram"><i class="fa fa-bars"></i></button>
              <ul class = "nav-list">
                 <li class="sansation-regular"><a href="">Home</a></li>
                 <li class="sansation-regular active">
@@ -42,7 +43,7 @@
         <div class="hero-section">
           <div class="left-part">
             <div class="title">
-              <h1>Empowering teams with freedom</h1>
+              <h1 class="sansation-regular">Empowering teams with freedom</h1>
               <p>Own the unlimited power of web development</p>
             </div>
             <div class="actions">
@@ -53,55 +54,13 @@
             </div>
           </div>
           <div class="right-part">
-            <div class="icon-container">
-              <img
-                class="asana-logo large"
-                src="/assets/logos/asana.png"
-                alt="asana logo"
-              />
-            </div>
-            <div class="icon-container">
-              <img
-                class="atlassian-logo large"
-                src="/assets/logos/atlassian.png"
-                alt="atlassian logo"
-              />
-            </div>
-            <div class="icon-container">
-              <img
-                class="calendar-logo large"
-                src="/assets/logos/calendar.png"
-                alt="google calendar logo"
-              />
-            </div>
-            <div class="icon-container">
-              <img
-                class="ads-logo small"
-                src="/assets/logos/google-ads.png"
-                alt="google ads logo"
-              />
-            </div>
-            <div class="icon-container">
-              <img
-                class="google-logo small"
-                src="/assets/logos/google.png"
-                alt="google logo"
-              />
-            </div>
-            <div class="icon-container">
-              <img
-                class="paypal-logo large"
-                src="/assets/logos/paypal.jpg"
-                alt="paypal logo"
-              />
-            </div>
-            <div class="icon-container">
-              <img
-                class="weave-logo large"
-                src="/assets/logos/weave.png"
-                alt="weave logo"
-              />
-            </div>
+            <div class="asana-logo large"></div>
+            <div class="atlassian-logo large"></div>
+            <div class="calendar-logo large"></div>
+            <div class="ads-logo small"></div>
+            <div class="google-logo small"></div>
+            <div class="paypal-logo large"></div>
+            <div class="weave-logo large"></div>
           </div>
         </div>
       </div>
@@ -109,13 +68,13 @@
     </section>
     <section class="why-front-section">
       <div class="why-front-title">
-        <h1>Why Front?</h1>
-        <p>Front is an incredibly beautiful, fully responsive, and mobile-first projects on the web - it is the starting point for creative sites</p>
+        <h1>Why front?</h1>
+        <p class="sansation-regular">Front is an incredibly beautiful, fully responsive, and mobile-first projects on the web - it is the starting point for creative sites</p>
       </div>
       <div class="bullets-list">
         <div class="bullet">
           <div class="top">
-            <div class="leftwing"></div>
+            <div class="left-wing hide"></div>
             <div class="bullet-circle">
               <div class="bullet-inner-circle"></div>
             </div>
@@ -127,7 +86,7 @@
         </div>
         <div class="bullet">
           <div class="top">
-            <div class="leftwing"></div>
+            <div class="left-wing"></div>
             <div class="bullet-circle">
               <div class="bullet-inner-circle"></div>
             </div>
@@ -139,7 +98,7 @@
         </div>
         <div class="bullet">
           <div class="top">
-            <div class="leftwing"></div>
+            <div class="left-wing"></div>
             <div class="bullet-circle">
               <div class="bullet-inner-circle"></div>
             </div>
@@ -151,11 +110,11 @@
         </div>
         <div class="bullet">
           <div class="top">
-            <div class="leftwing"></div>
+            <div class="left-wing"></div>
             <div class="bullet-circle">
               <div class="bullet-inner-circle"></div>
             </div>
-            <div class="right-wing"></div>
+            <div class="right-wing hide"></div>
           </div>
           <div class="title">
             <h3>Page layouts</h3>
@@ -284,8 +243,108 @@
     </section>
     <footer class="footer-section">
       <div class="container">
-        <div class="left-part"></div>
-        <div class="right-part"></div>
+        <div class="left-part">
+          <div class="logo"></div>
+          <div class="nav">
+            <div class="menu-item">
+              <div class="icon"></div>
+              <a href="">153 Williamson Plaza, Maggieberg</a>
+            </div>
+            <div class="menu-item">
+              <div class="icon"></div>
+              <a href="">+1 (062) 109-9222</a>
+            </div>
+          </div>
+        </div>
+        <div class="right-part">
+          <div class="column one">
+            <h3>Company</h3>
+            <div class="nav">
+              <div class="menu-item">
+                <i></i>
+                <a href="">About</a>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <a href="">Career</a>
+                <div class="badge">
+                  <a href="">We're hiring</a>
+                </div>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <a href="">Blog</a>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <a href="">Customers</a>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <a href="">Hire us</a>
+              </div>
+            </div>
+          </div>
+          <div class="column two">
+            <h3>Features</h3>
+            <div class="nav">
+              <div class="menu-item">
+                <i></i>
+                <a href="">Press</a>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <p class = "active">Release notes</a>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <a href="">Integrations</a>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <a href="">Pricing</a>
+              </div>
+            </div>
+          </div>
+          <div class="column three">
+            <h3>Documentation</h3>
+            <div class="nav">
+              <div class="menu-item">
+                <i></i>
+                <a href="">Support</a>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <a href="">Docs</a>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <a href="">Status</a>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <a href="">API Reference</a>
+              </div>
+              <div class="menu-item">
+                <i></i>
+                <a href="">Tech Requirements</a>
+              </div>
+            </div>
+          </div>
+          <div class="column four">
+            <h3>Resources</h3>
+            <div class="nav">
+              <div class="menu-item">
+                <i class="fa fa-info-circle"></i>
+                <a href="">Help</a>
+              </div>
+              <div class="menu-item">
+                <i class="fa fa-user-circle"></i>
+                <a href="">Your Account</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -296,7 +355,7 @@
 
 
 
-    <div class="top-section">
+    <!-- <div class="top-section">
       <header class="header-content">
         <img class="header-logo" src="/assets/logos/logo-front.svg" alt="logo" />
         <div class="header-right-hand">
@@ -725,12 +784,12 @@
               </div>
               <div class="menu-item footer-icon">
                 <i class="fa fa-user-circle"></i>
-                <a href="">About</a>
+                <a href="">Your Account</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
