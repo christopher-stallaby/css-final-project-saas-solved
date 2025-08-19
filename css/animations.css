@@ -1,9 +1,9 @@
-.icons .large {
+.right-part .large {
     animation: fadeInRevolve 3s ease-in-out;
 }
 
-.icons .small {
-    animation: slideInFromRight 2s ease-in-out;
+.right-part .small {
+    animation: slideInFromRight 4s ease-in-out;
 }
 
 @keyframes fadeInRevolve {
