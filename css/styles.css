@@ -85,6 +85,7 @@
   .top-section {
     position: relative;
     width: 100vw;
+    height: 532px;
   }
 
   .top-section::before {
@@ -103,6 +104,8 @@
   .top-section-content { 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .header {
@@ -110,6 +113,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
     padding: 10px 30px;
     background-color: #F6F8FA;
     height: 86px;
@@ -127,7 +131,8 @@
   .header .header-nav {
     display: flex;
     flex-direction: row;
-    min-width: 471px;
+    max-width: 100vw;
+    /* min-width: 471px; */
     min-height: 57px;
     padding: 6px 14px;
     gap: 30px;
@@ -353,6 +358,7 @@
   }
 
   .bullet .title {
+    justify-content: center;
     min-height: 19px;
     padding: 0px 10px;
     gap: 4px;
@@ -416,7 +422,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    max-width: 290px;
+    min-width: 290px;
     min-height: 194px;
     gap: 30px;
   }
@@ -558,7 +564,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1024px;
+    max-width: 100vw;
     min-height: 708px;
     padding: 30px;
     background-color: #20335B;
@@ -769,7 +775,7 @@
   .footer-section {
     display: flex;
     flex-direction: column;
-    min-width: 1024px;
+    min-width: 100vw;
     max-height: 246px;
     padding: 40px 30px;
     gap: 40px;
