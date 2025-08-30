@@ -251,49 +251,50 @@
     position: absolute;
     top: 10px;
     left: 380px;
-    background-image: url("../assets/logos/asana.png");
+    background-image: url("../assets/bg/background-top.svg");
+    /* background-image: url("../assets/logos/asana.png"); */
   }
 
   .atlassian-logo {
     position: absolute;
+    background-image: url("../assets/logos/atlassian.png");
     top: 10px;
     left: 175px;
-    background-image: url("../assets/logos/atlassian.png");
   }
 
   .calendar-logo {
     position: absolute;
+    background-image: url("../assets/logos/calendar.png");
     top: 310px;
     left: 364px;
-    background-image: url("../assets/logos/calendar.png");
   }
 
   .ads-logo {
     position: absolute;
+    background-image: url("../assets/logos/google-ads.png");
     top: 290px;
     left: 155px;
-    background-image: url("../assets/logos/google-ads.png");
   }
 
   .google-logo {
     position: absolute;
+    background-image: url("../assets/logos/google.png");
     top: 10px;
     left: 64px;
-    background-image: url("../assets/logos/google.png");
   }
 
   .paypal-logo {
     position: absolute;
+    background-image: url("../assets/logos/paypal.jpg");
     top: 172px;
     left: 44px;
-    background-image: url("../assets/logos/paypal.jpg");
   }
 
   .weave-logo {
     position: absolute;
+    background-image: url("../assets/logos/weave.png");
     top: 172px;
     left: 262px;
-    background-image: url("../assets/logos/weave.png");
   }
 
 /* MAIN BODY STYLING */
