@@ -251,8 +251,7 @@
     position: absolute;
     top: 10px;
     left: 380px;
-    background-image: url("../assets/bg/background-top.svg");
-    /* background-image: url("../assets/logos/asana.png"); */
+    background-image: url("../assets/logos/asana.png");
   }
 
   .atlassian-logo {
